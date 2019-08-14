@@ -11,11 +11,19 @@ npm install
 npm start
 ```
 
+The `npm start` command will build the tailwind style sheet and then will run `ng serve -o`.
+
+## Building
+
+`npm run build`
+
+Building the application will generate all of the Tailwind classes and then all of the unused classes will be removed by Purgecss. After the css has been handled the application will be built and output in dist/< application name >.
+
 ## Tailwindcss
 
 `npm run tailwind`
 
-Tailwind builds a styles.tailwind.css file in the src/ directory. The generated css is huge, so when the application is built all of the unused css is purged.
+Tailwind builds a styles.tailwind.css file in the src/ directory (the compiled file is ignored). The generated css is huge, so when the application is built all of the unused css is purged.
 
 ## Purgecss
 
