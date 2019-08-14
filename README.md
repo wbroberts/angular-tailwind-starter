@@ -5,7 +5,7 @@ This is a starter repo for Angular 8 projects that uses Tailwindcss.
 ## Getting Started
 
 ```
-git clone <project-url>
+git clone https://github.com/wbroberts/angular-tailwind-starter.git
 cd angular-tailwind-starter
 npm install
 npm start
