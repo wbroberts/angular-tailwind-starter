@@ -1,6 +1,6 @@
 # Angular Tailwind Starter
 
-This is a starter repo for Angular 8 projects that uses Tailwindcss.
+This is a starter repo for Angular projects that wish to use Tailwindcss with Purgecss. This reduces the amount of boilerplate and Googling to get everything working together.
 
 ## Getting Started
 
