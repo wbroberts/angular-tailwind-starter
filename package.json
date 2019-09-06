@@ -1,6 +1,6 @@
 {
   "name": "angular-tailwind-starter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "analyze": "webpack-bundle-analyzer dist/meraki-pipeline/stats-es2015.json",
     "ng": "ng",
@@ -11,10 +11,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "purge": "purgecss --css src/styles.tailwind.css --content src/**/*.html -o src/",
+    "purge": "purgecss -c ./purgecss.config.js -o src/",
     "tailwind": "./node_modules/.bin/tailwind build ./src/tailwind-build.css -c ./tailwind.config.js -o ./src/styles.tailwind.css"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^8.2.2",
     "@angular/common": "^8.2.2",
